@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: black;
+}
+.nav{
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.295);
+    border: 2px solid rgba(0, 0, 0, 0.295);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    width: 93em;
+    height: 70px;
+    
+}
+
+nav .img {
+    height: 19px;
+}
+
+.right {
+    color: white;
+    font-family: 'Asap';
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.right ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.right ul li {
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.right a {
+    text-decoration: none;
+    color: white;
+    padding: 7px 7px;
+}
+
+
+.right a:hover {
+    box-shadow: 30px 20px 0px 14px white inset;
+    color: black;
+    border-radius: 5px;
+}
+
+.mid {
+    color: white;
+    font-family: 'Asap';
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.mid ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-top: -56px;
+    margin-left: 565px;
+}
+
+.mid ul li .line {
+    width: 2px;
+    height: 26px;
+    background-color: gray;
+    margin-left: -32px;
+}
+
+.mid a {
+    gap: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    padding: 7px 10px;
+}
+
+
+.mid a:hover {
+    box-shadow: 0px 0px 0px 20px white inset;
+    color: black;
+    border-radius: 5px;
+}
+
+.mid svg {
+    color: white;
+}
+
+.mid a:hover svg {
+    color: black;
+}
+
+.left1 {
+    display: flex;
+    gap:23px;
+    margin-top: -47px;
+    margin-left: 1060px;
+}
+
+.search svg{
+    padding: 7px 7px;
+    margin-top: -4px;
+}
+
+.search a:hover svg{
+    box-shadow: 30px 30px 15px 24px white inset;
+    color:black;
+    border-radius: 15px;
+}
+
+.EN a{
+    gap: 3px;
+    display: flex;
+    align-items: center;
+    margin-top: -6px;
+    text-decoration: none;
+    color: white;
+    padding: 7px 7px;
+}
+
+.EN a:hover{
+    box-shadow: 30px 30px 15px 24px white inset;
+    color:black;
+    border-radius: 5px;
+}
+.EN a:hover svg{
+    transform: rotate(180deg);
+    color: black;
+}
+
+.side svg{
+    padding: 7px 7px;
+    margin-top: -6px;
+}
+
+.side a:hover svg{
+    box-shadow: 30px 30px 15px 24px white inset;
+    color:black;
+    border-radius: 20px;
+}
+
+.profile{
+    margin-top: -39px;
+    margin-left: 1267px;
+}
+
+.profile img{    
+    height: 32px;
+    width: 32px;
+    padding: 5px 5px;
+    margin-top: -5px;
+}
+
+.profile a:hover img{
+    box-shadow: 30px 30px 15px 24px white inset;
+    border-radius: 30px;
+}
+
+.join{
+    margin-top: -49px;
+    margin-left: 1327px;
+}
+
+.join button{
+    background-color: rgb(8, 124, 219);
+    color:white;
+    padding: 10px 10px;
+    height: 44px;
+    width: 120px;
+    border-radius: 7px;
+    border: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.join a:hover button{
+    background-color: rgb(26, 152, 255);
+    
+}
+
+.grid1 img{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.grid1 .wel{
+    position: absolute;
+    top: 150px;
+    left:70px; 
+    color: white;
+    font-family: 'Asap';
+    font-size: 47px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+.grid1 .TV{
+    position: absolute;
+    border: 2px solid rgb(0, 0, 0);
+    width: 40rem;
+    top: 250px;
+    left:70px; 
+    color: white;
+    font-family: 'Asap';
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.grid1 a{
+    position: absolute;
+    text-align: center;
+    top: 350px;
+    left:70px; 
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-family: 'Asap';
+    font-size: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius:9px ;
+    padding: 18px;
+    width: 12rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.grid1 a:hover{
+    transform:scale(103%);
+}
+
+.grid2 .container{
+    position: absolute;
+    top:45rem;
+    width: 46rem;
+    height: 40rem;
+    background-color: black;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: -7px 3px 35px 50px #000000;
+}
+.grid2 img{
+    position: relative;
+    width: 100%;
+    height: 37rem;
+}
+.grid2 .rent{
+    position: absolute;
+    top: 54rem;
+    left:70px; 
+    color: white;
+    font-family: 'Asap';
+    font-size: 47px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 40rem;
+}
+
+.grid2 .access{
+    position: absolute;
+    top: 64rem;
+    left:70px; 
+    color: white;
+    font-family: 'Asap';
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.grid2 a{
+    position: relative;
+    top: -18rem;
+    left:69px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-family: 'Asap';
+    font-size: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius:9px ;
+    padding: 18px;
+    width: 12rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+.grid2 a:hover{
+    transform:translateY(30px);
+}
+
+.grid4 .box1 {
+    width: 220px;  /* Set fixed width */
+    height: 150px; /* Set fixed height */
+    border: 2px solid #000000;
+    border-radius: 15px;
+    overflow: hidden; /* Hides overflow */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensures the full image fits without cropping */
+}
+.grid4 .box2 {
+    width: 220px;  /* Set fixed width */
+    height: 150px; /* Set fixed height */
+    border: 2px solid #000000;
+    border-radius: 15px;
+    overflow: hidden; /* Hides overflow */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensures the full image fits without cropping */
+}
+.grid4 .box3 {
+    width: 220px;  /* Set fixed width */
+    height: 150px; /* Set fixed height */
+    border: 2px solid #000000;
+    border-radius: 15px;
+    overflow: hidden; /* Hides overflow */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensures the full image fits without cropping */
+}
+.grid4 .box4 {
+    width: 220px;  /* Set fixed width */
+    height: 150px; /* Set fixed height */
+    border: 2px solid #000000;
+    border-radius: 15px;
+    overflow: hidden; /* Hides overflow */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensures the full image fits without cropping */
+}
+.grid4 .box5 {
+    width: 220px;  /* Set fixed width */
+    height: 150px; /* Set fixed height */
+    border: 2px solid #000000;
+    border-radius: 15px;
+    overflow: hidden; /* Hides overflow */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensures the full image fits without cropping */
+}
+.grid4 .box6 {
+    width: 220px;  /* Set fixed width */
+    height: 150px; /* Set fixed height */
+    border: 2px solid #000000;
+    border-radius: 15px;
+    overflow: hidden; /* Hides overflow */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensures the full image fits without cropping */
+}
+.grid4 .box7 {
+    width: 220px;  /* Set fixed width */
+    height: 150px; /* Set fixed height */
+    border: 2px solid #000000;
+    border-radius: 15px;
+    overflow: hidden; /* Hides overflow */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box7 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensures the full image fits without cropping */
+}
+.grid4 .box8 {
+    width: 220px;  /* Set fixed width */
+    height: 150px; /* Set fixed height */
+    border: 2px solid #000000;
+    border-radius: 15px;
+    overflow: hidden; /* Hides overflow */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box8 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensures the full image fits without cropping */
+}
+.grid4 .box9 {
+    width: 220px;  /* Set fixed width */
+    height: 150px; /* Set fixed height */
+    border: 2px solid #000000;
+    border-radius: 15px;
+    overflow: hidden; /* Hides overflow */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box9 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensures the full image fits without cropping */
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: 100px 100px 100px; /* 3 columns */
+    grid-template-rows: 100px 100px 100px; /* 3 rows */
+    row-gap: 55px;
+    column-gap: 128px; /* Spacing between images */
+    position: absolute;
+    left: 50rem; /* Aligns to the left */
+    top: 105rem;
+    transform: translateY(-50%); /* Centers vertically */
+}
+
+.grid4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.grid4 img:hover{
+    box-shadow: 7px 3px 10px 10px #ffffff;
+}
+
+.grid3 .your{
+    position: absolute;
+    top: 92rem;
+    left:70px; 
+    color: white;
+    font-family: 'Asap';
+    font-size: 47px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 40rem;
+}
+
+.grid3 .with{
+    position: absolute;
+    top:103rem;
+    left:70px;
+    color: white;
+    font-family: 'Asap';
+    line-height: 1.5rem;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid rgb(0, 0, 0);
+    width: 40rem;
+}
+.footer .cont{
+    position: relative;
+    top: 39rem;
+    left: 0;
+    border: 2px red;
+    background-color: #222222;
+    width: 98.5vw;
+    height: 8rem;
+}
+
+.footer img{
+    position: absolute;
+    top: 128rem;
+    left: 44rem;
+    width: 110px;
+}
+
+.footer ul{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    position: absolute;
+    top: 129.5rem;
+    left: 33.5rem;
+    gap: 1rem;
+}
+.footer ul li{
+    list-style-type: none;
+}
+
+.footer ul a{
+    font-family: 'Asap';
+    font-size: 16px;
+    text-decoration: none;
+    color: #79b8f3;
+}
+.footer ul a:hover{
+    color: #90dffe;
+}
+
+.footer .text{
+    position: absolute;
+    top: 132rem;
+    left: 38.5rem;
+    color: #8197a4;
+    font-family: 'Asap';
+}
